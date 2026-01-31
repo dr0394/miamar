@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1769735536438,
+      "tag": "0000_talented_lady_deathstrike",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1769735675763,
+      "tag": "0001_redundant_terrax",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1769874548335,
+      "tag": "0002_big_mentor",
+      "breakpoints": true
+    }
+  ]
+}

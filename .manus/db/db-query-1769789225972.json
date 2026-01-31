@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO bookings (accommodationId, hostId, guestName, guestEmail, guestPhone, guestMessage, checkIn, checkOut, numberOfGuests, pricePerNight, numberOfNights, cleaningFee, totalPrice) VALUES (1, 1, 'Test Guest', 'test@test.com', '123456', 'Test message', '2026-02-01 00:00:00', '2026-02-03 00:00:00', 2, 80.00, 2, 50.00, 210.00);",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 3yGeSTnshjQWoiJ.4e0e5f217154 --database LW6uYnQLrjy6g44PeUWspU --execute INSERT INTO bookings (accommodationId, hostId, guestName, guestEmail, guestPhone, guestMessage, checkIn, checkOut, numberOfGuests, pricePerNight, numberOfNights, cleaningFee, totalPrice) VALUES (1, 1, 'Test Guest', 'test@test.com', '123456', 'Test message', '2026-02-01 00:00:00', '2026-02-03 00:00:00', 2, 80.00, 2, 50.00, 210.00);",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 65
+}
